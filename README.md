@@ -1,7 +1,7 @@
 # -Project-Marketing-Power-BI-_Nguy-n-Qu-nh-Anh
- Star Schema Data Model
+##  Star Schema Data Model
 
-Hình sau mô tả mô hình dữ liệu dạng **Star Schema**  được sử dụng xuyên suốt toàn bộ báo cáo Power BI.
+##  Hình sau mô tả mô hình dữ liệu dạng **Star Schema**  được sử dụng xuyên suốt toàn bộ báo cáo Power BI.
 
 ### Bảng Fact (Trung tâm)
 - **`Fact_Marketing`**: Đây là bảng fact chính, lưu trữ các chỉ số hiệu suất marketing ở mức độ chi tiết theo chiến dịch, kênh, sản phẩm và thời gian. Các metric quan trọng bao gồm:
