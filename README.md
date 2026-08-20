@@ -21,7 +21,7 @@ Các bảng `Dim_*` kết nối với `Fact_Marketing` qua các khóa ngoại t�
 
 <img width="1115" height="704" alt="image" src="https://github.com/user-attachments/assets/0eba0441-f88e-4cdc-a9b5-c4eb7b6f8dd9" />
 
-Page 1: Marketing Performance Dashboard – Overview
+##  Page 1: Marketing Performance Dashboard – Overview
 Đây là trang **tổng quan (Overview)** của báo cáo, cung cấp cái nhìn toàn diện và nhanh nhất về hiệu suất hoạt động Marketing trên tất cả các chiến dịch và kênh.
 
 ###  Các chỉ số KPI hàng đầu (Top Metrics)
@@ -166,6 +166,7 @@ Người dùng có thể tùy chỉnh dữ liệu theo:
 - Bảng này cũng hiển thị tổng ở dòng cuối cùng để đối chiếu với KPI đầu trang.
 
 <img width="1128" height="634" alt="image" src="https://github.com/user-attachments/assets/69a24a24-fde6-43fe-818e-37c17cc97798" />
+
 ##  Page 5: Marketing Performance Dashboard – Campaign Deep Dive
 
 Đây là trang **phân tích chuyên sâu theo chiến dịch (Campaign Deep Dive)** – cung cấp cái nhìn chi tiết nhất về hiệu suất của từng chiến dịch marketing, từ doanh thu, chi phí, ROAS đến phân bổ theo người phụ trách. Trang này là "trái tim" của báo cáo, giúp nhà quản lý **ra quyết định về chiến dịch nào nên duy trì, mở rộng hay dừng lại**.
@@ -219,6 +220,7 @@ Người dùng có thể tùy chỉnh dữ liệu theo:
 - Biểu đồ đường/cột (có thể ở phía dưới) thể hiện **doanh thu** và **chi phí** theo thời gian diễn ra chiến dịch.
 - Giúp phát hiện điểm rơi (peak) của chiến dịch – thời điểm nào đem lại doanh thu cao nhất để tái sử dụng cho các năm tiếp theo.
 <img width="1128" height="645" alt="image" src="https://github.com/user-attachments/assets/59745318-ef47-401c-9705-e9a8b90315d2" />
+
 ##  Page 6: Marketing Performance Dashboard – Product Analysis
 
 Đây là trang **phân tích hiệu suất theo sản phẩm (Product Analysis)** – cung cấp cái nhìn chi tiết về **sản phẩm/dịch vụ nào đang mang lại doanh thu và chuyển đổi tốt nhất**, từ đó giúp định hướng chiến lược sản phẩm, tập trung nguồn lực vào những sản phẩm chủ lực và cải thiện những sản phẩm kém hiệu quả.
