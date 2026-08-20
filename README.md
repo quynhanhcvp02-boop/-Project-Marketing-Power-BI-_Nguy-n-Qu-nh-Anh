@@ -18,7 +18,9 @@ Hình sau mô tả mô hình dữ liệu dạng **Star Schema**  được sử d
 
 ### Mối quan hệ
 Các bảng `Dim_*` kết nối với `Fact_Marketing` qua các khóa ngoại tương ứng (`CampaignKey`, `ChannelKey`, `ProductKey`, `DateKey`), tạo thành cấu trúc hình sao đặc trưng, tối ưu cho việc cắt lọc (filter) và tính toán tổng hợp (aggregation) trong DAX.
-<img width="1124" height="640" alt="image" src="https://github.com/user-attachments/assets/02eac014-470a-4ce3-ba85-95662d86fdbd" />
+
+<img width="1115" height="704" alt="image" src="https://github.com/user-attachments/assets/0eba0441-f88e-4cdc-a9b5-c4eb7b6f8dd9" />
+
 Page 1: Marketing Performance Dashboard – Overview
 Đây là trang **tổng quan (Overview)** của báo cáo, cung cấp cái nhìn toàn diện và nhanh nhất về hiệu suất hoạt động Marketing trên tất cả các chiến dịch và kênh.
 
@@ -43,7 +45,9 @@ Tương tác để lọc dữ liệu theo:
 Ngoài ra, giao diện còn cung cấp các nút chuyển trang (hoặc bookmark) để đi sâu vào phân tích chi tiết hơn ở các trang:
 - **Campaign Deep Dive** – Phân tích chuyên sâu theo từng chiến dịch.
 - **Product Analysis** – Phân tích hiệu quả theo từng sản phẩm.
-<img width="1127" height="637" alt="image" src="https://github.com/user-attachments/assets/bf9290b1-5767-4a8f-89df-ac1a67d88c57" />
+
+<img width="1126" height="634" alt="image" src="https://github.com/user-attachments/assets/8746a4d6-c08f-46d5-ad22-8a79c3a157ea" />
+
 ##  Page 2: Marketing Performance Dashboard – Spending & Budget Allocation
 
 Đây là trang **phân tích chi phí (Spending)** chuyên sâu, đóng vai trò như "trung tâm kiểm soát ngân sách" của toàn bộ báo cáo. Trang này giúp nhà quản lý hiểu rõ **tiền đang được chi ở đâu, cho kênh nào và hiệu quả ra sao** thông qua các chỉ số chi phí và tỷ lệ chuyển đổi.
@@ -80,7 +84,9 @@ Tương tự các trang khác, người dùng có thể lọc theo:
 
 **4. Chi phí theo từng kênh (Bar Chart)**
 - Biểu đồ cột so sánh trực quan mức chi tiêu tuyệt đối giữa các kênh (TikTok Ads, Email, Offline, Facebook Ads...), giúp dễ dàng nhận diện kênh dẫn đầu về chi phí tuyệt đối so với các kênh còn lại.
-<img width="1764" height="802" alt="image" src="https://github.com/user-attachments/assets/44f1903c-19c4-4ef0-aa0d-3cd5bc9ec0ff" />
+
+<img width="1125" height="638" alt="image" src="https://github.com/user-attachments/assets/f4947073-6ec0-438f-ad0b-dc6f6a297472" />
+
 ##  Page 3: Marketing Performance Dashboard – Revenue
 
 Đây là trang **phân tích doanh thu (Revenue)** chuyên sâu, cho phép nhà quản lý nhìn nhận rõ ràng **doanh thu đến từ đâu, kênh nào đóng góp nhiều nhất và sản phẩm/dịch vụ nào đang tạo ra giá trị** qua các giai đoạn.
@@ -118,7 +124,9 @@ Người dùng có thể tùy chỉnh dữ liệu theo:
   - **Dịch vụ bổ sung**: `$7,202M` – Nhóm dịch vụ gia tăng có doanh thu cao thứ hai.
   - **Logistics**: `$4,062M` – Nhóm còn lại.
 - Kết hợp với trang **Spending** để tính **ROAS theo danh mục**, từ đó quyết định cần đẩy mạnh hay cắt giảm ngân sách cho từng nhóm sản phẩm.
-<img width="1122" height="641" alt="image" src="https://github.com/user-attachments/assets/fed8ce27-fa8d-4d38-8a15-7ee75eb4abdd" />
+
+<img width="1124" height="636" alt="image" src="https://github.com/user-attachments/assets/2f83c83a-db6d-4bdd-9158-50025b4f7f3d" />
+
 ##  Page 4: Marketing Performance Dashboard – Channel Performance
 
 Đây là trang **phân tích hiệu quả theo kênh (Channel Performance)** – nơi cung cấp cái nhìn chi tiết và so sánh trực tiếp hiệu suất giữa các kênh marketing dựa trên bộ chỉ số đa chiều (Revenue, ROAS, CTR, CVR). Trang này giúp nhà quản lý **xác định kênh mạnh, kênh yếu và tối ưu hóa phân bổ ngân sách**.
